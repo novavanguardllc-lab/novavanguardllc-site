@@ -3,147 +3,94 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Nova Vantage</title>
-<style>
-  :root {
-    --black: #0B0E14;
-    --orange: #FF6B35;
-    --gold: #D4AF37;
-    --white: #F5F5F0;
-  }
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  body {
-    background: var(--black);
-    color: var(--white);
-    font-family: 'Segoe UI', Arial, sans-serif;
-    line-height: 1.6;
-  }
-  .stripe-bar {
-    height: 8px;
-    background: repeating-linear-gradient(
-      -45deg,
-      var(--black),
-      var(--black) 10px,
-      var(--orange) 10px,
-      var(--orange) 20px
-    );
-  }
-  header {
-    text-align: center;
-    padding: 50px 20px 20px;
-  }
-  header h1 {
-    font-size: 2.6rem;
-    letter-spacing: 1px;
-    color: var(--orange);
-  }
-  main {
-    max-width: 720px;
-    margin: 0 auto;
-    padding: 0 24px 60px;
-  }
-  .purpose {
-    background: rgba(255,107,53,0.08);
-    border: 1px solid var(--orange);
-    border-radius: 10px;
-    padding: 24px 28px;
-    margin: 20px 0 30px;
-    font-size: 1.1rem;
-  }
-  section {
-    background: rgba(255,255,255,0.03);
-    border: 1px solid rgba(212,175,55,0.2);
-    border-radius: 10px;
-    padding: 28px;
-    margin-bottom: 24px;
-  }
-  section h2 {
-    color: var(--orange);
-    font-size: 1.3rem;
-    margin-bottom: 12px;
-    border-bottom: 2px solid var(--gold);
-    display: inline-block;
-    padding-bottom: 4px;
-  }
-  ul {
-    padding-left: 20px;
-    margin-top: 10px;
-  }
-  li { margin-bottom: 8px; }
-  footer {
-    text-align: center;
-    padding: 30px 20px;
-    border-top: 1px solid rgba(212,175,55,0.2);
-    font-size: 0.9rem;
-    color: #999;
-  }
-  footer a {
-    color: var(--gold);
-    text-decoration: none;
-    margin: 0 10px;
-  }
-  footer a:hover { text-decoration: underline; }
-  .footer-brand {
-    margin-bottom: 10px;
-    color: var(--orange);
-    font-weight: 600;
-  }
-</style>
+<title>Nova Vanguard LLC — Technology &amp; Independent Media</title>
+<meta name="description" content="Nova Vanguard LLC builds AI-powered creator tools and produces receipts-first independent political commentary." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
 <div class="stripe-bar"></div>
 
-<header>
-  <h1>Nova Vantage</h1>
+<header class="site-nav">
+  <a href="index.html" class="brand">
+    <span class="mark">NOVA VANGUARD</span>
+    <span class="sub">LLC</span>
+  </a>
+  <nav class="links">
+    <a href="index.html" class="active">Home</a>
+    <a href="about.html">About</a>
+    <a href="apps.html">Apps</a>
+    <a href="download.html">Download</a>
+  </nav>
 </header>
 
-<main>
-  <p class="purpose">
-    <strong>Nova Vantage</strong> is a desktop and mobile application for
-    YouTube content creators. It connects to a creator's own YouTube
-    account to help them research verified news sources, draft video
-    scripts in their own voice, generate SEO-optimized titles and
-    descriptions, fact-check claims before publishing, and track their
-    channel's performance over time.
-  </p>
-
-  <section>
-    <h2>What Nova Vantage Does</h2>
-    <ul>
-      <li>Reads a signed-in creator's own YouTube channel and video data to display performance analytics</li>
-      <li>Generates video scripts and titles based on the creator's input and past content style</li>
-      <li>Fact-checks claims a creator plans to include in a video</li>
-      <li>Does not post, upload, or publish anything on the creator's behalf without their direct action</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>What Nova Vantage Does Not Do</h2>
-    <ul>
-      <li>No AI-generated voiceovers</li>
-      <li>No AI-generated video or avatars</li>
-      <li>No selling or sharing of a creator's YouTube data with third parties</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>Your Data</h2>
-    <p>
-      Nova Vantage requests access to YouTube Data API v3 information only
-      to power the features listed above. Access can be revoked at any time
-      from the app's Settings screen or from
-      <a href="https://myaccount.google.com/permissions" style="color: var(--gold);">Google Account Permissions</a>.
+<main class="wide">
+  <section style="border-bottom:none; padding-bottom:20px;">
+    <p class="eyebrow">Massillon, Ohio</p>
+    <h1>Built by an independent,<br><span class="accent">for</span> independents.</h1>
+    <p class="lede">
+      Nova Vanguard LLC is a technology and media company. We build AI-powered
+      software for content creators, and produce receipts-first political
+      commentary that answers to no party. Think for yourself.
     </p>
+    <div class="btn-row">
+      <a href="download.html" class="btn btn-primary">Get Nova Vantage PC</a>
+      <a href="apps.html" class="btn btn-outline">See all apps</a>
+    </div>
+  </section>
+
+  <section>
+    <p class="eyebrow">What we build</p>
+    <h2>Software for creators, not for algorithms</h2>
+    <p>
+      Nova Vantage doesn't make content. It makes creators. Every tool we
+      build is designed to sharpen a creator's own voice — never replace it.
+      No AI voiceovers, no synthetic video, no avatars. Just faster research,
+      sharper scripts, and honest fact-checking.
+    </p>
+    <div class="card-grid">
+      <div class="card">
+        <h3>Verified Research</h3>
+        <p>Pulls from vetted, independent sources — never engagement-bait outlets.</p>
+      </div>
+      <div class="card">
+        <h3>Script Generation</h3>
+        <p>Drafts in your own voice and cadence, not a generic AI narrator.</p>
+      </div>
+      <div class="card">
+        <h3>Fact Checking</h3>
+        <p>Built-in verification before you hit publish, not after the comments do it for you.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <p class="eyebrow">What we broadcast</p>
+    <h2>The Tremaine McCullough News Network</h2>
+    <p>
+      Independent political commentary, built on receipts. No straight-ticket
+      allegiance, no party talking points — just the story, the sourcing, and
+      the conclusion you're free to disagree with.
+    </p>
+    <div class="btn-row">
+      <a href="about.html" class="btn btn-outline">Read our story</a>
+    </div>
   </section>
 </main>
 
 <footer>
   <div class="footer-brand">Nova Vanguard LLC · Massillon, Ohio</div>
-  <a href="./privacy-policy.html">Privacy Policy</a>
-  <a href="./terms.html">Terms of Service</a>
-  <a href="mailto:tremainej@novavanguardllc.com">Contact</a>
-  <p style="margin-top: 14px;">© 2026 Nova Vanguard LLC · All rights reserved</p>
+  <div class="footer-links">
+    <a href="about.html">About</a>
+    <a href="apps.html">Apps</a>
+    <a href="download.html">Download</a>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="terms.html">Terms of Service</a>
+    <a href="data-deletion.html">Data Deletion</a>
+    <a href="mailto:tremainej@novavanguardllc.com">Contact</a>
+  </div>
+  <div class="copyright">© 2026 Nova Vanguard LLC · All rights reserved</div>
 </footer>
 
 </body>
